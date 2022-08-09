@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="label" fx:id="label" prefHeight="526.0" prefWidth="694.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="ControllerUI.FXMLDocumentController">
+    <children>
+        <Button id="añadir" fx:id="añadir" layoutX="309.0" layoutY="473.0" onAction="#handleButtonAction" text="Añadir" />
+      <WebView id="webview" fx:id="webview" layoutX="14.0" layoutY="15.0" prefHeight="452.0" prefWidth="670.0" />
+    </children>
+</AnchorPane>
